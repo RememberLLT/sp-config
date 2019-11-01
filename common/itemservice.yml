@@ -2,9 +2,12 @@ spring:
   application:
     name: item-service
     
-#server:#  port: 8001
+#server:
+#  port: 8001
   
-eureka:  client:    service-url: 
+eureka:
+  client:
+    service-url: 
       defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka
 ---
 spring:
@@ -17,6 +20,6 @@ spring:
   profiles: item2
 
 server:
-  port: 800200000
+  port: 800200023100
   
   
