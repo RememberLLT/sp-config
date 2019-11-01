@@ -20,6 +20,6 @@ spring:
   profiles: item2
 
 server:
-  port: 800200023100
+  port: 80020002310000000000000000000000
   
   
